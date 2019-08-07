@@ -1,7 +1,5 @@
 package com.tavisca.workshops.dokumar;
 
-import java.util.regex.Pattern;
-
 public class Solution {
 
     public Double howMuchQuestionSolver(String sentence) {
@@ -11,8 +9,7 @@ public class Solution {
             return -1.0;
         else {
             RomanNumeralToDecimalNumber romanString = new RomanNumeralToDecimalNumber();
-            System.out.println(roman);
-            Double credits = romanString.romanToDecimalConvertor(roman);
+            Double credits = romanString.decimalConvertor(roman);
             return credits;
         }
     }
@@ -24,9 +21,12 @@ public class Solution {
             return -1.0;
         else {
             RomanNumeralToDecimalNumber romanString = new RomanNumeralToDecimalNumber();
-            ItemCreditMap itemCredit = new ItemCreditMap();
-            if(itemCredit.itemCreditMap.get(strings[1])!=null)
-                return romanString.romanToDecimalConvertor(roman) * itemCredit.itemCreditMap.get(strings[1]);
+            Double romanValue=romanString.decimalConvertor(roman);
+            if(romanValue==-1.0)
+                    return -1.0;
+            MetalCreditMap mapObject = new MetalCreditMap();
+            if(mapObject.metalCreditMapper.get(strings[1])!=null)
+                return romanValue * mapObject.metalCreditMapper.get(strings[1]);
             else
                 return -1.0;
         }

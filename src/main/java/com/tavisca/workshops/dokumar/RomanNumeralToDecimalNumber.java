@@ -12,10 +12,9 @@ public class RomanNumeralToDecimalNumber {
         return true;
     }
 
-    public Double romanToDecimalConvertor(String romanNumeral) {
+    public Double decimalConvertor(String romanNumeral) {
         if(isValidRomanNumeral(romanNumeral))
         {
-//            ValuesOfRomanData value=new ValuesOfRomanData();
             Double sum=0.0;
             for(int i=0;i<romanNumeral.length();i++)
             {

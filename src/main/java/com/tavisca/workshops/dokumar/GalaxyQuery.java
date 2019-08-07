@@ -8,26 +8,25 @@ public class GalaxyQuery {
         if(Pattern.matches("how much is.*",inputSentance))
         {
             QuestionParse questionParse=new QuestionParse();
-            String creditString=questionParse.muchContainedQuestionParser(inputSentance);
+            String creditString=questionParse.muchParser(inputSentance);
             Solution solution=new Solution();
-            if(solution.howMuchQuestionSolver(creditString)!=-1.0){
-                String creditsAsString = (solution.howMuchQuestionSolver(creditString)).toString();
+            Double credits=solution.howMuchQuestionSolver(creditString);
+            if(credits!=-1.0){
+                String creditsAsString = credits.toString();
                 if(Pattern.matches(".*\\.0",creditsAsString)) {
-                    credit = solution.howMuchQuestionSolver(creditString).intValue();
+                    credit = credits.intValue();
                     return "pish tegj glob glob is " + credit;
                 }
                 else
                     return "pish tegj glob glob is " +(solution.howMuchQuestionSolver(creditString)).toString() ;
-
             }
             else
                 return "I have no idea what you are talking about";
-
         }
         else if(Pattern.matches("how many Credits.*",inputSentance))
         {
             QuestionParse questionParse= new QuestionParse();
-            String[] strings=questionParse.manyContainedQuestionParser(inputSentance);
+            String[] strings=questionParse.manyParser(inputSentance);
             Solution solution = new Solution();
             if(solution.howManyTypeQuestionSolver(strings)!=-1.0) {
                 String creditsAsString=solution.howManyTypeQuestionSolver(strings).toString();
