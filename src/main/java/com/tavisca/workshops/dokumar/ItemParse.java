@@ -1,8 +1,8 @@
 package com.tavisca.workshops.dokumar;
 
-public class MetalParse {
+public class ItemParse {
 
-    public static String[] metalParser(String sentance) {
+    public static String[] parser(String sentance) {
         String splits[]=sentance.split(" is | Credits");
         String totalCredit=splits[1];
         String metal = splits[0].substring(splits[0].lastIndexOf(" ")+1);

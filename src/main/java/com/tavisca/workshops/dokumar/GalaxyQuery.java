@@ -7,8 +7,8 @@ public class GalaxyQuery {
     public String solveQuery(String inputSentance) {
         if(Pattern.matches("how much is.*",inputSentance))
         {
-            QuestionParse questionParse=new QuestionParse();
-            String creditString=questionParse.muchParser(inputSentance);
+            QueryParse queryParse =new QueryParse();
+            String creditString= queryParse.muchParser(inputSentance);
             Solution solution=new Solution();
             Double credits=solution.howMuchQuestionSolver(creditString);
             if(credits!=-1.0){
@@ -25,8 +25,8 @@ public class GalaxyQuery {
         }
         else if(Pattern.matches("how many Credits.*",inputSentance))
         {
-            QuestionParse questionParse= new QuestionParse();
-            String[] strings=questionParse.manyParser(inputSentance);
+            QueryParse queryParse = new QueryParse();
+            String[] strings= queryParse.manyParser(inputSentance);
             Solution solution = new Solution();
             if(solution.howManyTypeQuestionSolver(strings)!=-1.0) {
                 String creditsAsString=solution.howManyTypeQuestionSolver(strings).toString();

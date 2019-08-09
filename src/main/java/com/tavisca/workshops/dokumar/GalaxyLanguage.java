@@ -5,20 +5,20 @@ import java.util.regex.Pattern;
 public class GalaxyLanguage {
     public void storeLanguageInfo(String inputSentance) {
         if(Pattern.matches(".*is .",inputSentance)){
-            GalaxyRomanNumberParse galaxyRomanNumberParse = new GalaxyRomanNumberParse();
-            String splits[]=galaxyRomanNumberParse.parser(inputSentance);
-            GalaxyRomanMap mapObject = new GalaxyRomanMap();
-            mapObject.galaxyRomanMapper.put(splits[0],splits[1].charAt(0));
+            NumberStatementParse numberStatementParse = new NumberStatementParse();
+            String splits[]= numberStatementParse.parser(inputSentance);
+            NumberAliasStatements mapObject = new NumberAliasStatements();
+            mapObject.numberAliasStatement.put(splits[0],splits[1].charAt(0));
         }
         else if(Pattern.matches(".*Credits",inputSentance))
         {
-            MetalParse metalParse=new MetalParse();
-            String splits[]=metalParse.metalParser(inputSentance);
-            MetalCreditCalculator metalCreditCalculator=new MetalCreditCalculator();
-            Double value=metalCreditCalculator.metalCreditCalculation(splits[0],splits[1],splits[2]);
-            MetalCreditMap metalObject = new MetalCreditMap();
+            ItemParse itemParse =new ItemParse();
+            String splits[]= itemParse.parser(inputSentance);
+            ItemPriceCalculator itemPriceCalculator =new ItemPriceCalculator();
+            Double value= itemPriceCalculator.itemPriceCalculation(splits[0],splits[1],splits[2]);
+            ItemAliasPrice metalObject = new ItemAliasPrice();
             if(value!=-1.0)
-                metalObject.metalCreditMapper.put(splits[1],value);
+                metalObject.itemAliasPrice.put(splits[1],value);
         }
         else
             System.out.println("I have no idea what you are talking about");

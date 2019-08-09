@@ -6,20 +6,20 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class InputParseTest {
     @Test
-     void canParseGalaxyRomanNumberStatement(){
-         GalaxyRomanNumberParse galaxyRomanNumberParser=new GalaxyRomanNumberParse();
+     void canParseNumberStatement(){
+         NumberStatementParse numberStatementParser =new NumberStatementParse();
          assertArrayEquals(new String[]{"glob","I"},
-                galaxyRomanNumberParser.parser("glob is I"));
+                numberStatementParser.parser("glob is I"));
     }
     @Test
-     void canParseMetalInSentence(){
-         MetalParse metalParse= new MetalParse();
+     void canParseItemStatementPrice(){
+         ItemParse itemParse = new ItemParse();
         assertArrayEquals((new String[]{"glob glob","Silver","34"}),
-                metalParse.metalParser("glob glob Silver is 34 Credits"));
+                itemParse.parser("glob glob Silver is 34 Credits"));
         assertArrayEquals((new String[]{"pish pish","Iron","3910"}),
-                metalParse.metalParser("pish pish Iron is 3910 Credits"));
+                itemParse.parser("pish pish Iron is 3910 Credits"));
         assertArrayEquals((new String[]{"glob prok","Gold","57800"}),
-                metalParse.metalParser("glob prok Gold is 57800 Credits"));
+                itemParse.parser("glob prok Gold is 57800 Credits"));
     }
 
     @Test
@@ -30,7 +30,7 @@ public class InputParseTest {
     }
 
    @Test
-   void isRomanNumeralIsValid()
+   void isRomanNumeralValid()
    {
        RomanNumeralToDecimalNumber romanNumeralToDecimalNumber=new RomanNumeralToDecimalNumber();
        assertEquals(true,romanNumeralToDecimalNumber.isValidRomanNumeral("MCMLXXXIV"));
@@ -46,17 +46,17 @@ public class InputParseTest {
        assertEquals(-1.0,romanNumeralToDecimalNumber.decimalConvertor("IL"));
    }
    @Test
-   void isGalaxyWordsMappedIntoGalaxyRomanMap()
+   void isStatementHasNumber()
    {
        MerchantParse merchantParse= new MerchantParse();
        merchantParse.merchantParser("glob is I");
        merchantParse.merchantParser("prok is V");
        merchantParse.merchantParser("pish is X");
        merchantParse.merchantParser("tegj is L");
-       assertEquals('I',GalaxyRomanMap.galaxyRomanMapper.get("glob"));
-       assertEquals('V',GalaxyRomanMap.galaxyRomanMapper.get("prok"));
-       assertEquals('X',GalaxyRomanMap.galaxyRomanMapper.get("pish"));
-       assertEquals('L',GalaxyRomanMap.galaxyRomanMapper.get("tegj"));
+       assertEquals('I', NumberAliasStatements.numberAliasStatement.get("glob"));
+       assertEquals('V', NumberAliasStatements.numberAliasStatement.get("prok"));
+       assertEquals('X', NumberAliasStatements.numberAliasStatement.get("pish"));
+       assertEquals('L', NumberAliasStatements.numberAliasStatement.get("tegj"));
    }
 
     @Test
@@ -66,7 +66,7 @@ public class InputParseTest {
         merchantParse.merchantParser("prok is V");
         merchantParse.merchantParser("pish is X");
         merchantParse.merchantParser("tegj is L");
-        assertEquals('L',GalaxyRomanMap.galaxyRomanMapper.get("tegj"));
+        assertEquals('L', NumberAliasStatements.numberAliasStatement.get("tegj"));
         SentenceToRomanString sentenceToRomanString=new SentenceToRomanString();
         assertEquals("XLII",sentenceToRomanString.romanConverter("pish tegj glob glob"));
     }
@@ -81,18 +81,18 @@ public class InputParseTest {
        merchantParse.merchantParser("glob glob Silver is 34 Credits");
        merchantParse.merchantParser("glob prok Gold is 57800 Credits");
        merchantParse.merchantParser("pish pish Iron is 3910 Credits");
-       MetalCreditMap itemobject=new MetalCreditMap();
-       assertEquals(17,itemobject.metalCreditMapper.get("Silver"));
-       assertEquals(14450,itemobject.metalCreditMapper.get("Gold"));
-       assertEquals(195.5,itemobject.metalCreditMapper.get("Iron"));
+       ItemAliasPrice itemobject=new ItemAliasPrice();
+       assertEquals(17,itemobject.itemAliasPrice.get("Silver"));
+       assertEquals(14450,itemobject.itemAliasPrice.get("Gold"));
+       assertEquals(195.5,itemobject.itemAliasPrice.get("Iron"));
    }
 
    @Test
     void canParseSentenceContainingHowMuch()
    {
-       QuestionParse questionParse =new QuestionParse();
+       QueryParse queryParse =new QueryParse();
        assertEquals("pish tegj glob glob",
-               questionParse.muchParser("how much is pish tegj glob glob ?"));
+               queryParse.muchParser("how much is pish tegj glob glob ?"));
    }
 
    @Test
@@ -112,9 +112,9 @@ public class InputParseTest {
 
    @Test
     void canParseSentenceContainingHowMany(){
-        QuestionParse questionParse=new QuestionParse();
+        QueryParse queryParse =new QueryParse();
         assertArrayEquals(new String[]{"glob prok","Silver"},
-                questionParse.manyParser("how many Credits is glob prok Silver ?"));
+                queryParse.manyParser("how many Credits is glob prok Silver ?"));
    }
 
    @Test

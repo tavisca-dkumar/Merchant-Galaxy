@@ -24,9 +24,9 @@ public class Solution {
             Double romanValue=romanString.decimalConvertor(roman);
             if(romanValue==-1.0)
                     return -1.0;
-            MetalCreditMap mapObject = new MetalCreditMap();
-            if(mapObject.metalCreditMapper.get(strings[1])!=null)
-                return romanValue * mapObject.metalCreditMapper.get(strings[1]);
+            ItemAliasPrice mapObject = new ItemAliasPrice();
+            if(mapObject.itemAliasPrice.get(strings[1])!=null)
+                return romanValue * mapObject.itemAliasPrice.get(strings[1]);
             else
                 return -1.0;
         }

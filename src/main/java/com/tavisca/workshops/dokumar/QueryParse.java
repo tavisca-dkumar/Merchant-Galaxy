@@ -1,6 +1,6 @@
 package com.tavisca.workshops.dokumar;
 
-public class QuestionParse {
+public class QueryParse {
 
     public String muchParser(String inputSentence) {
         String [] splits = inputSentence.split(" is ");

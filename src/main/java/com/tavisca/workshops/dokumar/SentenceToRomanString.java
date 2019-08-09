@@ -4,11 +4,11 @@ public class SentenceToRomanString {
     public String romanConverter(String sentence)
     {
         String splits[]=sentence.split(" ");
-        GalaxyRomanMap object = new GalaxyRomanMap();
+        NumberAliasStatements object = new NumberAliasStatements();
         String roman="";
         for(String var:splits){
-            if(object.galaxyRomanMapper.get(var)!=null)
-                roman+=object.galaxyRomanMapper.get(var);
+            if(object.numberAliasStatement.get(var)!=null)
+                roman+=object.numberAliasStatement.get(var);
             else
                 return "invalid";
         }

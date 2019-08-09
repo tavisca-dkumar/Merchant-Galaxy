@@ -1,7 +1,7 @@
 package com.tavisca.workshops.dokumar;
 
-public class MetalCreditCalculator {
-    public Double metalCreditCalculation(String metalContainedSentence, String item, String totalCredit) {
+public class ItemPriceCalculator {
+    public Double itemPriceCalculation(String metalContainedSentence, String item, String totalCredit) {
        RomanNumeralToDecimalNumber romanNumeralToDecimalNumber=new RomanNumeralToDecimalNumber();
         SentenceToRomanString sentenceToRomanString=new SentenceToRomanString();
         String roman=sentenceToRomanString.romanConverter(metalContainedSentence);

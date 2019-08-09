@@ -1,6 +1,6 @@
 package com.tavisca.workshops.dokumar;
 
-public class GalaxyRomanNumberParse {
+public class NumberStatementParse {
 
     public static String[] parser(String input) {
         String splits[]=input.split(" ");
