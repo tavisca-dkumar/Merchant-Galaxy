@@ -1,18 +1,40 @@
-
 pipeline {
     agent {label "machine"}
     stages {
         stage('Build') {
+             steps {
+                           bat label: '', script: '''
+            cd Merchant-Galaxy-Problem
+            set JAVA_HOME="C:\\Program Files\\Java\\jdk-10"
+            echo $JAVA_HOME
+             .\\gradlew.bat build
+            cd ..
+            @RD /S /Q Merchant-Galaxy-Problem
+            '''
+                        }
+        }
+        stage('Test')
+        {
             steps {
-               bat label: '', script: '''
-               mkdir Merchant-Galaxy-Problem
-               cd Merchant-Galaxy-Problem
-               set JAVA_HOME="C:\\Program Files\\Java\\jdk-10"
-               echo $JAVA_HOME
-               .\\gradlew.bat build
-               cd ..
-               @RD /S /Q Merchant-Galaxy-Problem
-               '''
+
+            }
+        }
+        stage('Static Code Analysis')
+        {
+            steps {
+
+            }
+        }
+        stage('Build DockerImage')
+        {
+            steps {
+
+            }
+        }
+        stage('Publish DockerImage')
+        {
+            steps {
+
             }
         }
     }
