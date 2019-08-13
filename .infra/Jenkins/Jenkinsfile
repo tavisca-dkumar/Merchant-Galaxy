@@ -16,25 +16,26 @@ pipeline {
         stage('Test')
         {
             steps {
+                bat labet: '', script: ''' echo "test"
 
             }
         }
         stage('Static Code Analysis')
         {
             steps {
-
+bat labet: '', script: ''' echo "test"
             }
         }
         stage('Build DockerImage')
         {
             steps {
-
+bat labet: '', script: ''' echo "test"
             }
         }
         stage('Publish DockerImage')
         {
             steps {
-
+bat labet: '', script: ''' echo "test"
             }
         }
     }
