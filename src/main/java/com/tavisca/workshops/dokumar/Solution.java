@@ -3,25 +3,25 @@ package com.tavisca.workshops.dokumar;
 public class Solution {
 
     public Double howMuchQuestionSolver(String sentence) {
-        SentenceToRomanString sentenceToRomanString= new SentenceToRomanString();
-        String roman=sentenceToRomanString.romanConverter(sentence);
+        RomanConvertor romanConvertor = new RomanConvertor();
+        String roman= romanConvertor.convertToRoman(sentence);
         if(roman.equals("invalid"))
             return -1.0;
         else {
-            RomanNumeralToDecimalNumber romanString = new RomanNumeralToDecimalNumber();
-            Double credits = romanString.decimalConvertor(roman);
+            DecimalConvertor romanString = new DecimalConvertor();
+            Double credits = romanString.convertToDecimal(roman);
             return credits;
         }
     }
 
     public Double howManyTypeQuestionSolver(String[] strings) {
-        SentenceToRomanString sentence = new SentenceToRomanString();
-        String roman=sentence.romanConverter(strings[0]);
+        RomanConvertor sentence = new RomanConvertor();
+        String roman=sentence.convertToRoman(strings[0]);
         if(roman.equals("invalid"))
             return -1.0;
         else {
-            RomanNumeralToDecimalNumber romanString = new RomanNumeralToDecimalNumber();
-            Double romanValue=romanString.decimalConvertor(roman);
+            DecimalConvertor romanString = new DecimalConvertor();
+            Double romanValue=romanString.convertToDecimal(roman);
             if(romanValue==-1.0)
                     return -1.0;
             ItemAliasPrice mapObject = new ItemAliasPrice();

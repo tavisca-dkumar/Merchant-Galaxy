@@ -5,8 +5,8 @@ import java.util.regex.Pattern;
 public class GalaxyLanguage {
     public void storeLanguageInfo(String inputSentance) {
         if(Pattern.matches(".*is .",inputSentance)){
-            NumberStatementParse numberStatementParse = new NumberStatementParse();
-            String splits[]= numberStatementParse.parser(inputSentance);
+            NumberStatementParser numberStatementParser = new NumberStatementParser();
+            String splits[]= numberStatementParser.parse(inputSentance);
             NumberAliasStatements mapObject = new NumberAliasStatements();
             mapObject.numberAliasStatement.put(splits[0],splits[1].charAt(0));
         }

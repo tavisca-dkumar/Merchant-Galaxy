@@ -1,8 +1,8 @@
 package com.tavisca.workshops.dokumar;
 
-public class MerchantParse {
+public class MerchantParser {
 
-    public void merchantParser(String inputSentance) {
+    public void merchantParse(String inputSentance) {
         if (inputSentance.contains("much")||inputSentance.contains("many")){
             //solvesGalaxyQuery
             GalaxyQuery galaxyQuery=new GalaxyQuery();

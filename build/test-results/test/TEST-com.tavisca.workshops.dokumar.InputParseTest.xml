@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.tavisca.workshops.dokumar.InputParseTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2019-08-09T06:52:37" hostname="RENTLAPT0096" time="0.259">
+<testsuite name="com.tavisca.workshops.dokumar.InputParseTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2019-08-09T13:50:26" hostname="RENTLAPT0096" time="0.475">
   <properties/>
-  <testcase name="isRomanSymbolsAndValuesAreCorrect()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.056"/>
-  <testcase name="canParseMetalInSentence()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.008"/>
-  <testcase name="isSentenceToRoman()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.039"/>
-  <testcase name="canConvertRomanToDecimal()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.006"/>
-  <testcase name="isGalaxyWordsMappedIntoGalaxyRomanMap()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.021"/>
-  <testcase name="canParseGalaxyRomanNumberStatement()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.003"/>
-  <testcase name="isSentenceContainedHowMuchQuestionSolved()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.023"/>
-  <testcase name="isSentenceContainedHowManyTypeQuestionSolved()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.062"/>
-  <testcase name="isRomanNumeralIsValid()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.001"/>
-  <testcase name="canParseSentenceContainingHowMany()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.001"/>
-  <testcase name="canParseSentenceContainingHowMuch()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.001"/>
-  <testcase name="isItemAndCreditsAreMapped()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.002"/>
+  <testcase name="isRomanNumeralValid()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.036"/>
+  <testcase name="isStatementHasNumber()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.013"/>
+  <testcase name="isRomanSymbolsAndValuesAreCorrect()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.006"/>
+  <testcase name="canParseItemStatementPrice()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.011"/>
+  <testcase name="canParseNumberStatement()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.003"/>
+  <testcase name="isSentenceToRoman()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.247"/>
+  <testcase name="canConvertRomanToDecimal()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.001"/>
+  <testcase name="isSentenceContainedHowMuchQuestionSolved()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.034"/>
+  <testcase name="isSentenceContainedHowManyTypeQuestionSolved()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.059"/>
+  <testcase name="canParseSentenceContainingHowMany()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.013"/>
+  <testcase name="canParseSentenceContainingHowMuch()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.002"/>
+  <testcase name="isItemAndCreditsAreMapped()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.01"/>
   <testcase name="isSolveUnknownQuery()" classname="com.tavisca.workshops.dokumar.InputParseTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

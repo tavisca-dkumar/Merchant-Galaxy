@@ -2,7 +2,7 @@ package com.tavisca.workshops.dokumar;
 
 import java.util.HashMap;
 
-public class ValuesOfRomanData {
+public class RomanAliasDecimal {
 
 
     public static final HashMap<Character,Double> romanDataMap

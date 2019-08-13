@@ -1,7 +1,7 @@
 package com.tavisca.workshops.dokumar;
 
-public class SentenceToRomanString {
-    public String romanConverter(String sentence)
+public class RomanConvertor {
+    public String convertToRoman(String sentence)
     {
         String splits[]=sentence.split(" ");
         NumberAliasStatements object = new NumberAliasStatements();

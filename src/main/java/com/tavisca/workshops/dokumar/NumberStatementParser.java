@@ -1,8 +1,8 @@
 package com.tavisca.workshops.dokumar;
 
-public class NumberStatementParse {
+public class NumberStatementParser {
 
-    public static String[] parser(String input) {
+    public static String[] parse(String input) {
         String splits[]=input.split(" ");
         return new String[]{splits[0],splits[2]};
     }
