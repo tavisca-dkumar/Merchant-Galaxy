@@ -56,7 +56,7 @@ pipeline {
         {
             steps {
                 sh script: '''
-                    echo "I am Logging"
+                    echo "I am Logging ::${env:DOCKER_USERNAME}"
                     docker login -u ${env:DOCKER_USERNAME} -p ${env:DOCKER_PASSWORD}
                 ''',
             label: "Logging done!!"
