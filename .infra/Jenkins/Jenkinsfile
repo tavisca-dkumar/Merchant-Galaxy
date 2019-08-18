@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         registry = "siva546/merchant_galaxy"
-        registryCredential = "dockerhub"
+        registryCredential = 'dockerhub'
     	}
     stages {
         stage('Build') {
