@@ -1,9 +1,9 @@
 pipeline {
     agent any
-    environment {
-        registry = "siva546/merchant_galaxy"
-        registryCredential = 'dockerhub'
-    	}
+    parameter{
+        string(name:"DOCKER_USERNAME")
+        password(name:"DOCKER_PASSWORD")
+    }
     stages {
         stage('Build') {
             steps {
@@ -49,7 +49,8 @@ pipeline {
             steps {
                 sh script: '''
                     echo "I am Pubishing DockerImage ="
-                    docker tag mogimage:1.0 siva546/merchant_galaxy
+                    docker tag mogimage:1.0 siva546/merchant_galaxy:latest
+                    docker login -u ${env:DOCKER_USERNAME} -p ${env:DOCKER_PASSWORD}
                     docker push siva546/merchant_galaxy:latest
                 ''',
             label: "Publishing Docker Image"
