@@ -54,7 +54,7 @@ pipeline {
         {
             steps{
                 sh script:'''
-                    docker tag mogimage:1.0 siva546/merchant_galaxy
+                    docker tag mogimage:1.0 siva546/merchant_galaxy:latest
                     '''
             }
         }
@@ -64,7 +64,7 @@ pipeline {
             steps {
                 sh script: '''
                     echo "I am Pushing DockerImage ="
-                    docker push siva546/merchant_galaxy
+                    docker push siva546/merchant_galaxy:latest
                 ''',
             label: "Pushing Docker Image"
             }
