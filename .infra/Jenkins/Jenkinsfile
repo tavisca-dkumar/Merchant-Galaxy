@@ -50,6 +50,7 @@ pipeline {
                 sh script: '''
                     echo "I am Pubishing DockerImage ="
                     docker tag mogimage:1.0 siva546/merchant_galaxy
+                    docker login
                     docker push siva546/merchant_galaxy
                 ''',
             label: "Publishing Docker Image"
