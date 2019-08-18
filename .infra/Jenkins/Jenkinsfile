@@ -47,12 +47,7 @@ pipeline {
         stage('Docker Login')
         {
             steps {
-                sh script: '''
-                    echo "I am Logging ::"
-                    echo "${env:DOCKER_USERNAME}"
-                    docker login -u ${env:DOCKER_USERNAME} -p ${env:DOCKER_PASSWORD}
-                ''',
-            label: "Logging done!!"
+                powershell(script:'docker login -u ${env:DOCKER_USERNAME} -p ${env:DOCKER_PASSWORD}')
             }
         }
         stage('tag')
@@ -69,7 +64,7 @@ pipeline {
             steps {
                 sh script: '''
                     echo "I am Pushing DockerImage ="
-                    docker push ${env:DOCKER_USERNAME}/merchant_galaxy
+                    docker push siva546/merchant_galaxy
                 ''',
             label: "Pushing Docker Image"
             }
