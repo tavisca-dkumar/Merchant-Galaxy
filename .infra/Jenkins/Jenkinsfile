@@ -48,7 +48,7 @@ pipeline {
         {
             steps{
                 sh script:'''
-                    docker tag mogimage:1.0 siva546/merchant_galaxy:latest
+                    docker tag mogimage:1.0 siva546/merchant_galaxy
                     '''
             }
         }
@@ -58,7 +58,7 @@ pipeline {
                 sh script: '''
                     echo "I am Pubishing DockerImage ="
                     docker login -u ${env:DOCKER_USERNAME} -p ${env:DOCKER_PASSWORD}
-                    docker push siva546/merchant_galaxy:latest
+                    docker push ${env:DOCKER_USERNAME}/merchant_galaxy
                 ''',
             label: "Publishing Docker Image"
             }
