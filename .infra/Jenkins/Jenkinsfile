@@ -44,12 +44,19 @@ pipeline {
             label: "Building Docker Image"
             }
         }
+        stage('tag')
+        {
+            steps{
+                sh script:'''
+                    docker tag mogimage:1.0 siva546/merchant_galaxy:latest
+                    '''
+            }
+        }
         stage('Publish DockerImage')
         {
             steps {
                 sh script: '''
                     echo "I am Pubishing DockerImage ="
-                    docker tag mogimage:1.0 siva546/merchant_galaxy:latest
                     docker login -u ${env:DOCKER_USERNAME} -p ${env:DOCKER_PASSWORD}
                     docker push siva546/merchant_galaxy:latest
                 ''',
