@@ -49,7 +49,8 @@ pipeline {
             steps {
                 sh script: '''
                     echo "I am Pubishing DockerImage ="
-                    docker push siva546/merchant_galaxy:mogimage:1.0
+                    docker tag mogimage:1.0 siva546/merchant_galaxy
+                    docker push siva546/merchant_galaxy
                 ''',
             label: "Publishing Docker Image"
             }
