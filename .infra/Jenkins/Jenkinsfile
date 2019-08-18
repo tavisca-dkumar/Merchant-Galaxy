@@ -52,15 +52,24 @@ pipeline {
                     '''
             }
         }
-        stage('Publish DockerImage')
+        stage('Docker Login')
         {
             steps {
                 sh script: '''
-                    echo "I am Pubishing DockerImage ="
+                    echo "I am Logging"
                     docker login -u ${env:DOCKER_USERNAME} -p ${env:DOCKER_PASSWORD}
+                ''',
+            label: "Logging done!!"
+            }
+        }
+        stage('Docker Push')
+        {
+            steps {
+                sh script: '''
+                    echo "I am Pushing DockerImage ="
                     docker push ${env:DOCKER_USERNAME}/merchant_galaxy
                 ''',
-            label: "Publishing Docker Image"
+            label: "Pushing Docker Image"
             }
         }
     }
