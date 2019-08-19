@@ -45,7 +45,7 @@ pipeline {
             steps {
                 sh script: '''
                     echo "I am Building DockerImage ="
-                    docker build -t mogimage:1.0 .
+                    docker build -t mogimage1:1.0 .
                 ''',
             label: "Building Docker Image"
             }
@@ -60,7 +60,7 @@ pipeline {
         {
             steps{
                 sh script:'''
-                    docker tag mogimage:1.0 siva546/merchant_galaxy:latest
+                    docker tag mogimage1:1.0 siva546/merchant_galaxy:latest
                     '''
             }
         }
