@@ -2,9 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0397eb17-a12e-4d09-81cb-8c835d1bfc35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.infra/Jenkins/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/.infra/Jenkins/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tavisca/workshops/dokumar/GalaxyLanguage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/tavisca/workshops/dokumar/GalaxyLanguage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tavisca/workshops/dokumar/GalaxyQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/tavisca/workshops/dokumar/GalaxyQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tavisca/workshops/dokumar/ItemAliasPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/tavisca/workshops/dokumar/ItemAliasPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tavisca/workshops/dokumar/MerchantParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/tavisca/workshops/dokumar/MerchantParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tavisca/workshops/dokumar/NumberAliasStatements.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/tavisca/workshops/dokumar/NumberAliasStatements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tavisca/workshops/dokumar/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/tavisca/workshops/dokumar/InputParseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/tavisca/workshops/dokumar/InputParseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.tavisca.workshops.dokumar.InputParseTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.tavisca.workshops.dokumar.InputParseTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.tavisca.workshops.dokumar.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.tavisca.workshops.dokumar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.tavisca.workshops.dokumar.InputParseTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.tavisca.workshops.dokumar.InputParseTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/GalaxyLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/GalaxyLanguage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/GalaxyQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/GalaxyQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/ItemAliasPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/ItemAliasPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/MerchantParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/MerchantParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/NumberAliasStatements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/NumberAliasStatements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tavisca/workshops/dokumar/InputParseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tavisca/workshops/dokumar/InputParseTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -14,6 +46,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="190" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
@@ -59,82 +94,44 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/MerchantParser.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/ErrorMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle.kts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradlew.bat">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradlew">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/tavisca/workshops/dokumar/InputParseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+            <state relative-caret-position="34">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.infra/Jenkins/Jenkinsfile">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/ItemAliasPrice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" column="68" selection-start-line="51" selection-start-column="68" selection-end-line="51" selection-end-column="68" />
+            <state relative-caret-position="221">
+              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/NumberAliasStatements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+            <state relative-caret-position="136">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/GalaxyQuery.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/tavisca/workshops/dokumar/InputParseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+            <state relative-caret-position="2278">
+              <caret line="134" column="81" selection-start-line="134" selection-start-column="81" selection-end-line="134" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -206,23 +203,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/MainInputParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/SentanceToCreditParse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/ItemCreditMap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/ItemCreditCalculator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/GalaxyLanguage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/GalaxyRomanMap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/NumberAliasStatements.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/MetalCreditMap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/ItemAliasPrice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/MetalCreditCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/ItemPriceCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/MetalParse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/GalaxyRomanNumberParse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/ItemParse.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tavisca/workshops/dokumar/InputParseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/QuestionParse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/GalaxyQuery.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/MerchantParse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/MerchantParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/NumberStatementParse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/NumberStatementParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/QueryParse.java" />
@@ -234,16 +224,29 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/ValuesOfRomanData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/RomanAliasDecimal.java" />
         <option value="$PROJECT_DIR$/Dockerfile" />
-        <option value="$PROJECT_DIR$/.infra/Jenkins/Jenkinsfile" />
         <option value="$PROJECT_DIR$/build.gradle.kts" />
+        <option value="$PROJECT_DIR$/.infra/Jenkins/Jenkinsfile" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/LanguageData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/LanguageTrainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/NumberAliasStatements.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/GalaxyLanguage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/SolveQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/Solution.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tavisca/workshops/dokumar/InputParseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/Merchant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/MerchantParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/ErrorMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/GalaxyQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/AskQuantity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/AskCredits.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/ItemAliasPrice.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="5" />
-    <option name="y" value="16" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="22" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -251,8 +254,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,6 +267,12 @@
               <item name="merchantgalaxy" type="b2602c69:ProjectViewProjectNode" />
               <item name="merchantgalaxy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name=".infra" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="merchantgalaxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merchantgalaxy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".infra" type="462c0819:PsiDirectoryNode" />
+              <item name="Jenkins" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="merchantgalaxy" type="b2602c69:ProjectViewProjectNode" />
@@ -328,21 +337,22 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot/SpringFrameWorkDemo" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="com.tavisca.workshops.dokumar" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\siva kumar\merchantgalaxy\src\main\java" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.tavisca.workshops.dokumar" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\siva kumar\merchantgalaxy\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -358,6 +368,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Gradle.InputParseTest">
+    <configuration name="MerchantParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tavisca.workshops.dokumar.MerchantParser" />
+      <module name="merchantgalaxy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tavisca.workshops.dokumar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InputParseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -378,52 +401,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="InputParseTest.canConvertRomanToDecimal" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.tavisca.workshops.dokumar.InputParseTest.canConvertRomanToDecimal&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="InputParseTest.isSentenceContainedHowManyTypeQuestionSolved" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.tavisca.workshops.dokumar.InputParseTest.isSentenceContainedHowManyTypeQuestionSolved&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="InputParseTest.isSolveUnknownQuery" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.tavisca.workshops.dokumar.InputParseTest.isSolveUnknownQuery&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="InputParseTest.merchantParserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.tavisca.workshops.dokumar.InputParseTest.merchantParserTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -460,10 +463,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.InputParseTest" />
+        <item itemvalue="Application.MerchantParser" />
+        <item itemvalue="Gradle.InputParseTest.merchantParserTest" />
         <item itemvalue="Gradle.merchantgalaxy [build]" />
         <item itemvalue="Gradle.InputParseTest.isSolveUnknownQuery" />
-        <item itemvalue="Gradle.InputParseTest.isSentenceContainedHowManyTypeQuestionSolved" />
-        <item itemvalue="Gradle.InputParseTest.canConvertRomanToDecimal" />
       </list>
     </recent_temporary>
   </component>
@@ -481,27 +484,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InputParseTest_isSentenceContainedHowManyTypeQuestionSolved - 2019.08.07 at 17h 28m 38s.xml">
-      <configuration name="InputParseTest.isSentenceContainedHowManyTypeQuestionSolved" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="InputParseTest - 2019.08.07 at 17h 31m 06s.xml">
-      <configuration name="InputParseTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="InputParseTest - 2019.08.07 at 17h 32m 07s.xml">
-      <configuration name="InputParseTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="InputParseTest_isSolveUnknownQuery - 2019.08.07 at 17h 35m 14s.xml">
-      <configuration name="InputParseTest.isSolveUnknownQuery" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="InputParseTest - 2019.08.07 at 19h 33m 17s.xml">
-      <configuration name="InputParseTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="InputParseTest - 2019.08.09 at 10h 02m 55s.xml">
-      <configuration name="InputParseTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="InputParseTest - 2019.08.09 at 10h 09m 48s.xml">
-      <configuration name="InputParseTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="InputParseTest - 2019.08.09 at 12h 22m 38s.xml">
       <configuration name="InputParseTest" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -511,17 +493,42 @@
     <history-entry file="InputParseTest - 2019.08.16 at 10h 07m 22s.xml">
       <configuration name="InputParseTest" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="InputParseTest - 2019.08.18 at 11h 02m 53s.xml">
+      <configuration name="InputParseTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="InputParseTest - 2019.09.23 at 12h 14m 41s.xml">
+      <configuration name="InputParseTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="InputParseTest_merchantParserTest - 2019.09.23 at 12h 24m 18s.xml">
+      <configuration name="InputParseTest.merchantParserTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="InputParseTest - 2019.09.23 at 12h 37m 06s.xml">
+      <configuration name="InputParseTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="InputParseTest - 2019.10.03 at 21h 46m 09s.xml">
+      <configuration name="InputParseTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="InputParseTest - 2019.10.03 at 21h 55m 58s.xml">
+      <configuration name="InputParseTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="InputParseTest - 2019.10.03 at 21h 55m 59s.xml">
+      <configuration name="InputParseTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29500756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="DB Browser" order="7" />
+      <window_info id="Project Explorer" order="8" />
+      <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
@@ -534,6 +541,8 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="DB Execution Console" order="12" />
+      <window_info anchor="bottom" id="Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -543,36 +552,50 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Gradle" order="8" weight="0.2344932" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2912254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="DB Browser" order="7" />
+      <window_info id="Project Explorer" order="8" />
+      <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="DB Execution Console" order="12" />
+      <window_info anchor="bottom" id="Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" weight="0.32980332" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Gradle" order="8" weight="0.2344932" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
     </layout-to-restore>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/merchantgalaxy$InputParseTest.ic" NAME="InputParseTest Coverage Results" MODIFIED="1569222409405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/merchantgalaxy$MerchantParser.ic" NAME="MerchantParser Coverage Results" MODIFIED="1569221866128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.tavisca.workshops.dokumar.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
@@ -587,59 +610,19 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/tavisca/workshops/dokumar/ValuesOfRomanData.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/tavisca/workshops/dokumar/WordToRomanParse.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dokumar/MainInputParser.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/NumberAliasStatements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/GalaxyLanguage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/ItemAliasPrice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/ItemParse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/ItemPriceCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/RomanAliasDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/DecimalConvertor.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle.kts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/NumberStatementParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -650,6 +633,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/RomanAliasDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/ItemParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/RomanConvertor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -657,64 +654,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/MerchantParser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/NumberStatementParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        <state relative-caret-position="68">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/Solution.java">
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="51">
+          <caret line="3" column="51" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.infra/Jenkins/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="68" selection-start-line="51" selection-start-column="68" selection-end-line="51" selection-end-column="68" />
+        <state relative-caret-position="76">
+          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/DecimalConvertor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/ItemPriceCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/GalaxyLanguage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/SolveQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/GalaxyQuery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/Merchant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/AskQuantity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="15" column="65" lean-forward="true" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/MerchantParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/LanguageTrainer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+          <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle.kts">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/AskCredits.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/ErrorMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/NumberAliasStatements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/tavisca/workshops/dokumar/InputParseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        <state relative-caret-position="2278">
+          <caret line="134" column="81" selection-start-line="134" selection-start-column="81" selection-end-line="134" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshops/dokumar/ItemAliasPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
         </state>
       </provider>
     </entry>

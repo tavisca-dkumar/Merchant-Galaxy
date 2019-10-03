@@ -48,11 +48,11 @@ public class InputParseTest {
    @Test
    void isStatementHasNumber()
    {
-       MerchantParser merchantParser = new MerchantParser();
-       merchantParser.merchantParse("glob is I");
-       merchantParser.merchantParse("prok is V");
-       merchantParser.merchantParse("pish is X");
-       merchantParser.merchantParse("tegj is L");
+       GalaxyLanguage galaxyLanguage=new GalaxyLanguage();
+       galaxyLanguage.storeLanguageInfo("glob is I");
+       galaxyLanguage.storeLanguageInfo("prok is V");
+       galaxyLanguage.storeLanguageInfo("pish is X");
+       galaxyLanguage.storeLanguageInfo("tegj is L");
        assertEquals('I', NumberAliasStatements.numberAliasStatement.get("glob"));
        assertEquals('V', NumberAliasStatements.numberAliasStatement.get("prok"));
        assertEquals('X', NumberAliasStatements.numberAliasStatement.get("pish"));
@@ -61,11 +61,11 @@ public class InputParseTest {
 
     @Test
     void isSentenceToRoman(){
-        MerchantParser merchantParser = new MerchantParser();
-        merchantParser.merchantParse("glob is I");
-        merchantParser.merchantParse("prok is V");
-        merchantParser.merchantParse("pish is X");
-        merchantParser.merchantParse("tegj is L");
+        GalaxyLanguage galaxyLanguage=new GalaxyLanguage();
+        galaxyLanguage.storeLanguageInfo("glob is I");
+        galaxyLanguage.storeLanguageInfo("prok is V");
+        galaxyLanguage.storeLanguageInfo("pish is X");
+        galaxyLanguage.storeLanguageInfo("tegj is L");
         assertEquals('L', NumberAliasStatements.numberAliasStatement.get("tegj"));
         RomanConvertor romanConvertor =new RomanConvertor();
         assertEquals("XLII", romanConvertor.convertToRoman("pish tegj glob glob"));
@@ -73,14 +73,14 @@ public class InputParseTest {
    @Test
    void isItemAndCreditsAreMapped()
    {
-       MerchantParser merchantParser = new MerchantParser();
-       merchantParser.merchantParse("glob is I");
-       merchantParser.merchantParse("prok is V");
-       merchantParser.merchantParse("pish is X");
-       merchantParser.merchantParse("tegj is L");
-       merchantParser.merchantParse("glob glob Silver is 34 Credits");
-       merchantParser.merchantParse("glob prok Gold is 57800 Credits");
-       merchantParser.merchantParse("pish pish Iron is 3910 Credits");
+       GalaxyLanguage galaxyLanguage=new GalaxyLanguage();
+       galaxyLanguage.storeLanguageInfo("glob is I");
+       galaxyLanguage.storeLanguageInfo("prok is V");
+       galaxyLanguage.storeLanguageInfo("pish is X");
+       galaxyLanguage.storeLanguageInfo("tegj is L");
+       galaxyLanguage.storeLanguageInfo("glob glob Silver is 34 Credits");
+       galaxyLanguage.storeLanguageInfo("glob prok Gold is 57800 Credits");
+       galaxyLanguage.storeLanguageInfo("pish pish Iron is 3910 Credits");
        ItemAliasPrice itemobject=new ItemAliasPrice();
        assertEquals(17,itemobject.itemAliasPrice.get("Silver"));
        assertEquals(14450,itemobject.itemAliasPrice.get("Gold"));
@@ -97,14 +97,15 @@ public class InputParseTest {
 
    @Test
     void isSentenceContainedHowMuchQuestionSolved(){
-       MerchantParser merchantParser = new MerchantParser();
-       merchantParser.merchantParse("glob is I");
-       merchantParser.merchantParse("prok is V");
-       merchantParser.merchantParse("pish is X");
-       merchantParser.merchantParse("tegj is L");
-       merchantParser.merchantParse("glob glob Silver is 34 Credits");
-       merchantParser.merchantParse("glob prok Gold is 57800 Credits");
-       merchantParser.merchantParse("pish pish Iron is 3910 Credits");
+
+       GalaxyLanguage galaxyLanguage = new GalaxyLanguage();
+       galaxyLanguage.storeLanguageInfo("glob is I");
+       galaxyLanguage.storeLanguageInfo("prok is V");
+       galaxyLanguage.storeLanguageInfo("pish is X");
+       galaxyLanguage.storeLanguageInfo("tegj is L");
+       galaxyLanguage.storeLanguageInfo("glob glob Silver is 34 Credits");
+       galaxyLanguage.storeLanguageInfo("glob prok Gold is 57800 Credits");
+       galaxyLanguage.storeLanguageInfo("pish pish Iron is 3910 Credits");
        GalaxyQuery galaxyQuery=new GalaxyQuery();
        assertEquals("I have no idea what you are talking about",
                galaxyQuery.solveQuery("how much is glob tegj ?"));
@@ -119,14 +120,14 @@ public class InputParseTest {
 
    @Test
    void isSentenceContainedHowManyTypeQuestionSolved(){
-       MerchantParser merchantParser = new MerchantParser();
-       merchantParser.merchantParse("glob is I");
-       merchantParser.merchantParse("prok is V");
-       merchantParser.merchantParse("pish is X");
-       merchantParser.merchantParse("tegj is L");
-       merchantParser.merchantParse("glob tegj Silver is 34 Credits");
-       merchantParser.merchantParse("glob prok Gold is 57800 Credits");
-       merchantParser.merchantParse("pish pish Iron is 3910 Credits");
+       GalaxyLanguage galaxyLanguage = new GalaxyLanguage();
+       galaxyLanguage.storeLanguageInfo("glob is I");
+       galaxyLanguage.storeLanguageInfo("prok is V");
+       galaxyLanguage.storeLanguageInfo("pish is X");
+       galaxyLanguage.storeLanguageInfo("tegj is L");
+       galaxyLanguage.storeLanguageInfo("glob tegj Silver is 34 Credits");
+       galaxyLanguage.storeLanguageInfo("glob prok Gold is 57800 Credits");
+       galaxyLanguage.storeLanguageInfo("pish pish Iron is 3910 Credits");
        GalaxyQuery galaxyQuery=new GalaxyQuery();
        assertEquals("I have no idea what you are talking about",galaxyQuery.solveQuery("how many Credits is glob tegj Silver ?"));
        assertEquals("glob prok Gold is 57800 Credits",galaxyQuery.solveQuery("how many Credits is glob prok Gold ?"));
@@ -140,5 +141,17 @@ public class InputParseTest {
        assertEquals("I have no idea what you are talking about",galaxyQuery.solveQuery("wuefwdufu fhsdfsd fusdhfsd ffhd fhsduif"));
        assertEquals("I have no idea what you are talking about",galaxyQuery.solveQuery("how much wood could a woodchuck chuck if a woodchuck could chuck wood ?"));
    }
+   @Test
+    void merchantParserTest(){
+        String input[]=new String[]{"glob is I","prok is V","pish is X","tegj is L","glob tegj Silver is 34 Credits",
+                "glob prok Gold is 57800 Credits","pish pish Iron is 3910 Credits","how many Credits is glob tegj Silver ?",
+                "how many Credits is glob prok Gold ?","how many Credits is glob prok Iron ?",
+                "how much wood could a woodchuck chuck if a woodchuck could chuck wood ?"};
+        String excpectedOutput[]={"I have no idea what you are talking about","glob prok Gold is 57800 Credits",
+                "glob prok Iron is 782 Credits","I have no idea what you are talking about"};
+        MerchantParser merchantParser= new MerchantParser();
+        assertArrayEquals(excpectedOutput,merchantParser.merchantParse(input).toArray());
+   }
+
 
 }
