@@ -1,5 +1,8 @@
 package com.tavisca.workshops.dokumar;
 
+import com.tavisca.workshops.dokumar.convertors.DecimalConvertor;
+import com.tavisca.workshops.dokumar.convertors.RomanConvertor;
+
 public class ItemPriceCalculator {
     public Double itemPriceCalculation(String metalContainedSentence, String item, String totalCredit) {
        DecimalConvertor decimalConvertor =new DecimalConvertor();

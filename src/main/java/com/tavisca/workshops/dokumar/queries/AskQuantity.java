@@ -1,8 +1,14 @@
-package com.tavisca.workshops.dokumar;
+package com.tavisca.workshops.dokumar.queries;
+
+import com.tavisca.workshops.dokumar.ErrorMessage;
+import com.tavisca.workshops.dokumar.Solver;
+import com.tavisca.workshops.dokumar.convertors.DecimalConvertor;
+import com.tavisca.workshops.dokumar.convertors.RomanConvertor;
+import com.tavisca.workshops.dokumar.parsers.QueryParser;
 
 import java.util.regex.Pattern;
 
-public class AskQuantity implements SolveQuery {
+public class AskQuantity implements Solver {
     @Override
     public String answer(String sentence) {
         QueryParser queryParser = new QueryParser();

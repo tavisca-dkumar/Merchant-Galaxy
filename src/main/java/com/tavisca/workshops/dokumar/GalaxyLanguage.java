@@ -1,5 +1,8 @@
 package com.tavisca.workshops.dokumar;
 
+import com.tavisca.workshops.dokumar.languageinfo.ItemAliasPrice;
+import com.tavisca.workshops.dokumar.languageinfo.NumberAliasStatements;
+
 import java.util.regex.Pattern;
 
 public class GalaxyLanguage {

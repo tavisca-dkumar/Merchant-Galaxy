@@ -1,4 +1,4 @@
-package com.tavisca.workshops.dokumar;
+package com.tavisca.workshops.dokumar.languageinfo;
 
 import java.util.HashMap;
 

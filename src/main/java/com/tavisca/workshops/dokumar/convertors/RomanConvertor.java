@@ -1,4 +1,6 @@
-package com.tavisca.workshops.dokumar;
+package com.tavisca.workshops.dokumar.convertors;
+
+import com.tavisca.workshops.dokumar.languageinfo.NumberAliasStatements;
 
 public class RomanConvertor {
     public String convertToRoman(String sentence)

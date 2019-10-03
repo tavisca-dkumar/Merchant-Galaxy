@@ -1,4 +1,6 @@
-package com.tavisca.workshops.dokumar;
+package com.tavisca.workshops.dokumar.convertors;
+
+import com.tavisca.workshops.dokumar.languageinfo.RomanAliasDecimal;
 
 public class DecimalConvertor {
     private final String[] inValidRoman=new String[]{"VV","LL","DD","IIII","XXXX","CCCC","MMMM","VL","VC","VD",

@@ -1,8 +1,15 @@
-package com.tavisca.workshops.dokumar;
+package com.tavisca.workshops.dokumar.queries;
+
+import com.tavisca.workshops.dokumar.ErrorMessage;
+import com.tavisca.workshops.dokumar.Solver;
+import com.tavisca.workshops.dokumar.convertors.DecimalConvertor;
+import com.tavisca.workshops.dokumar.convertors.RomanConvertor;
+import com.tavisca.workshops.dokumar.languageinfo.ItemAliasPrice;
+import com.tavisca.workshops.dokumar.parsers.QueryParser;
 
 import java.util.regex.Pattern;
 
-public class AskCredits implements SolveQuery{
+public class AskCredits implements Solver {
 
     @Override
     public String answer(String sentence) {

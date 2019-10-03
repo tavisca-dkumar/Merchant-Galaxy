@@ -1,5 +1,13 @@
 package com.tavisca.workshops.dokumar;
 
+import com.tavisca.workshops.dokumar.convertors.DecimalConvertor;
+import com.tavisca.workshops.dokumar.convertors.RomanConvertor;
+import com.tavisca.workshops.dokumar.languageinfo.ItemAliasPrice;
+import com.tavisca.workshops.dokumar.languageinfo.NumberAliasStatements;
+import com.tavisca.workshops.dokumar.languageinfo.RomanAliasDecimal;
+import com.tavisca.workshops.dokumar.parsers.ItemParser;
+import com.tavisca.workshops.dokumar.parsers.NumberStatementParser;
+import com.tavisca.workshops.dokumar.parsers.QueryParser;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -13,13 +21,13 @@ public class InputParseTest {
     }
     @Test
      void canParseItemStatementPrice(){
-         ItemParse itemParse = new ItemParse();
+         ItemParser itemParser = new ItemParser();
         assertArrayEquals((new String[]{"glob glob","Silver","34"}),
-                itemParse.parser("glob glob Silver is 34 Credits"));
+                itemParser.parser("glob glob Silver is 34 Credits"));
         assertArrayEquals((new String[]{"pish pish","Iron","3910"}),
-                itemParse.parser("pish pish Iron is 3910 Credits"));
+                itemParser.parser("pish pish Iron is 3910 Credits"));
         assertArrayEquals((new String[]{"glob prok","Gold","57800"}),
-                itemParse.parser("glob prok Gold is 57800 Credits"));
+                itemParser.parser("glob prok Gold is 57800 Credits"));
     }
 
     @Test
@@ -106,9 +114,9 @@ public class InputParseTest {
        galaxyLanguage.storeLanguageInfo("glob glob Silver is 34 Credits");
        galaxyLanguage.storeLanguageInfo("glob prok Gold is 57800 Credits");
        galaxyLanguage.storeLanguageInfo("pish pish Iron is 3910 Credits");
-       GalaxyQuery galaxyQuery=new GalaxyQuery();
+       QuerySolver querySolver =new QuerySolver();
        assertEquals("I have no idea what you are talking about",
-               galaxyQuery.solveQuery("how much is glob tegj ?"));
+               querySolver.solveQuery("how much is glob tegj ?"));
    }
 
    @Test
@@ -128,18 +136,18 @@ public class InputParseTest {
        galaxyLanguage.storeLanguageInfo("glob tegj Silver is 34 Credits");
        galaxyLanguage.storeLanguageInfo("glob prok Gold is 57800 Credits");
        galaxyLanguage.storeLanguageInfo("pish pish Iron is 3910 Credits");
-       GalaxyQuery galaxyQuery=new GalaxyQuery();
-       assertEquals("I have no idea what you are talking about",galaxyQuery.solveQuery("how many Credits is glob tegj Silver ?"));
-       assertEquals("glob prok Gold is 57800 Credits",galaxyQuery.solveQuery("how many Credits is glob prok Gold ?"));
-       assertEquals("glob prok Iron is 782 Credits",galaxyQuery.solveQuery("how many Credits is glob prok Iron ?"));
-       assertEquals("I have no idea what you are talking about",galaxyQuery.solveQuery("how much wood could a woodchuck chuck if a woodchuck could chuck wood ?"));
+       QuerySolver querySolver =new QuerySolver();
+       assertEquals("I have no idea what you are talking about", querySolver.solveQuery("how many Credits is glob tegj Silver ?"));
+       assertEquals("glob prok Gold is 57800 Credits", querySolver.solveQuery("how many Credits is glob prok Gold ?"));
+       assertEquals("glob prok Iron is 782 Credits", querySolver.solveQuery("how many Credits is glob prok Iron ?"));
+       assertEquals("I have no idea what you are talking about", querySolver.solveQuery("how much wood could a woodchuck chuck if a woodchuck could chuck wood ?"));
    }
 
    @Test
     void isSolveUnknownQuery(){
-       GalaxyQuery galaxyQuery = new GalaxyQuery();
-       assertEquals("I have no idea what you are talking about",galaxyQuery.solveQuery("wuefwdufu fhsdfsd fusdhfsd ffhd fhsduif"));
-       assertEquals("I have no idea what you are talking about",galaxyQuery.solveQuery("how much wood could a woodchuck chuck if a woodchuck could chuck wood ?"));
+       QuerySolver querySolver = new QuerySolver();
+       assertEquals("I have no idea what you are talking about", querySolver.solveQuery("wuefwdufu fhsdfsd fusdhfsd ffhd fhsduif"));
+       assertEquals("I have no idea what you are talking about", querySolver.solveQuery("how much wood could a woodchuck chuck if a woodchuck could chuck wood ?"));
    }
    @Test
     void merchantParserTest(){

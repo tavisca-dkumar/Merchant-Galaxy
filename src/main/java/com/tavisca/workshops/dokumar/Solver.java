@@ -1,5 +1,5 @@
 package com.tavisca.workshops.dokumar;
 
-public interface SolveQuery {
+public interface Solver {
     public String answer(String sentence);
 }

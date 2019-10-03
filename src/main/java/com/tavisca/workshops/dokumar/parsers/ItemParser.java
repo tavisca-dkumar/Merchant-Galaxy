@@ -1,6 +1,6 @@
-package com.tavisca.workshops.dokumar;
+package com.tavisca.workshops.dokumar.parsers;
 
-public class ItemParse {
+public class ItemParser {
 
     public static String[] parser(String sentance) {
         String splits[]=sentance.split(" is | Credits");

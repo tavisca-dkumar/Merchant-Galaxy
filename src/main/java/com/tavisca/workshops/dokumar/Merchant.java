@@ -7,8 +7,8 @@ public class Merchant {
     }
 
     public String ask(String sentance){
-        GalaxyQuery galaxyQuery=new GalaxyQuery();
-        String answer=galaxyQuery.solveQuery(sentance);
+        QuerySolver querySolver =new QuerySolver();
+        String answer= querySolver.solveQuery(sentance);
         return answer;
     }
 }
