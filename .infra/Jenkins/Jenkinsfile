@@ -35,7 +35,11 @@ pipeline {
                      -Dsonar.organization=dkumar \
                      -Dsonar.host.url=https://sonarcloud.io \
                      -Dsonar.login=17b0609092977e376fbff9a176d9ff77e557565f
+<<<<<<< HEAD
 
+=======
+                    
+>>>>>>> 93108cf1a5fc86fc33c42cb956fbb7f1404b8176
                     ''',
             label: "Running Sonarqube Scan"
             }
@@ -64,7 +68,11 @@ pipeline {
                     '''
             }
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 93108cf1a5fc86fc33c42cb956fbb7f1404b8176
         stage('Docker Push')
         {
             steps {
