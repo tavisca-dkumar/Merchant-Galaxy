@@ -1,6 +1,5 @@
 package com.tavisca.workshops.dokumar.languageinfo;
 
-import com.tavisca.workshops.dokumar.LanguageTrainer;
 import com.tavisca.workshops.dokumar.parsers.NumberStatementParser;
 
 import java.util.HashMap;

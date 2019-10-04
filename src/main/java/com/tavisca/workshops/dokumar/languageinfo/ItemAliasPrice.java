@@ -1,7 +1,6 @@
 package com.tavisca.workshops.dokumar.languageinfo;
 
-import com.tavisca.workshops.dokumar.ItemPriceCalculator;
-import com.tavisca.workshops.dokumar.LanguageTrainer;
+import com.tavisca.workshops.dokumar.calculator.ItemPriceCalculator;
 import com.tavisca.workshops.dokumar.parsers.ItemParser;
 
 import java.util.HashMap;

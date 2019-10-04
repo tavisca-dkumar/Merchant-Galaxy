@@ -1,4 +1,4 @@
-package com.tavisca.workshops.dokumar;
+package com.tavisca.workshops.dokumar.calculator;
 
 import com.tavisca.workshops.dokumar.convertors.DecimalConvertor;
 import com.tavisca.workshops.dokumar.convertors.RomanConvertor;

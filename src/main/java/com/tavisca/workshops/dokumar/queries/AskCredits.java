@@ -1,7 +1,6 @@
 package com.tavisca.workshops.dokumar.queries;
 
 import com.tavisca.workshops.dokumar.ErrorMessage;
-import com.tavisca.workshops.dokumar.Solver;
 import com.tavisca.workshops.dokumar.convertors.DecimalConvertor;
 import com.tavisca.workshops.dokumar.convertors.RomanConvertor;
 import com.tavisca.workshops.dokumar.languageinfo.ItemAliasPrice;

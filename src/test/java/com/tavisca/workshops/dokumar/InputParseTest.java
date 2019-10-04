@@ -3,6 +3,7 @@ package com.tavisca.workshops.dokumar;
 import com.tavisca.workshops.dokumar.convertors.DecimalConvertor;
 import com.tavisca.workshops.dokumar.convertors.RomanConvertor;
 import com.tavisca.workshops.dokumar.languageinfo.ItemAliasPrice;
+import com.tavisca.workshops.dokumar.languageinfo.LanguageFactoryClass;
 import com.tavisca.workshops.dokumar.languageinfo.NumberAliasStatements;
 import com.tavisca.workshops.dokumar.languageinfo.RomanAliasDecimal;
 import com.tavisca.workshops.dokumar.parsers.ItemParser;
@@ -56,11 +57,11 @@ public class InputParseTest {
    @Test
    void isStatementHasNumber()
    {
-       GalaxyLanguage galaxyLanguage=new GalaxyLanguage();
-       galaxyLanguage.storeLanguageInfo("glob is I");
-       galaxyLanguage.storeLanguageInfo("prok is V");
-       galaxyLanguage.storeLanguageInfo("pish is X");
-       galaxyLanguage.storeLanguageInfo("tegj is L");
+       LanguageFactoryClass languageFactoryClass =new LanguageFactoryClass();
+       languageFactoryClass.storeLanguageProcess("glob is I");
+       languageFactoryClass.storeLanguageProcess("prok is V");
+       languageFactoryClass.storeLanguageProcess("pish is X");
+       languageFactoryClass.storeLanguageProcess("tegj is L");
        assertEquals('I', NumberAliasStatements.numberAliasStatement.get("glob"));
        assertEquals('V', NumberAliasStatements.numberAliasStatement.get("prok"));
        assertEquals('X', NumberAliasStatements.numberAliasStatement.get("pish"));
@@ -69,11 +70,11 @@ public class InputParseTest {
 
     @Test
     void isSentenceToRoman(){
-        GalaxyLanguage galaxyLanguage=new GalaxyLanguage();
-        galaxyLanguage.storeLanguageInfo("glob is I");
-        galaxyLanguage.storeLanguageInfo("prok is V");
-        galaxyLanguage.storeLanguageInfo("pish is X");
-        galaxyLanguage.storeLanguageInfo("tegj is L");
+        LanguageFactoryClass languageFactoryClass =new LanguageFactoryClass();
+        languageFactoryClass.storeLanguageProcess("glob is I");
+        languageFactoryClass.storeLanguageProcess("prok is V");
+        languageFactoryClass.storeLanguageProcess("pish is X");
+        languageFactoryClass.storeLanguageProcess("tegj is L");
         assertEquals('L', NumberAliasStatements.numberAliasStatement.get("tegj"));
         RomanConvertor romanConvertor =new RomanConvertor();
         assertEquals("XLII", romanConvertor.convertToRoman("pish tegj glob glob"));
@@ -81,14 +82,14 @@ public class InputParseTest {
    @Test
    void isItemAndCreditsAreMapped()
    {
-       GalaxyLanguage galaxyLanguage=new GalaxyLanguage();
-       galaxyLanguage.storeLanguageInfo("glob is I");
-       galaxyLanguage.storeLanguageInfo("prok is V");
-       galaxyLanguage.storeLanguageInfo("pish is X");
-       galaxyLanguage.storeLanguageInfo("tegj is L");
-       galaxyLanguage.storeLanguageInfo("glob glob Silver is 34 Credits");
-       galaxyLanguage.storeLanguageInfo("glob prok Gold is 57800 Credits");
-       galaxyLanguage.storeLanguageInfo("pish pish Iron is 3910 Credits");
+       LanguageFactoryClass languageFactoryClass =new LanguageFactoryClass();
+       languageFactoryClass.storeLanguageProcess("glob is I");
+       languageFactoryClass.storeLanguageProcess("prok is V");
+       languageFactoryClass.storeLanguageProcess("pish is X");
+       languageFactoryClass.storeLanguageProcess("tegj is L");
+       languageFactoryClass.storeLanguageProcess("glob glob Silver is 34 Credits");
+       languageFactoryClass.storeLanguageProcess("glob prok Gold is 57800 Credits");
+       languageFactoryClass.storeLanguageProcess("pish pish Iron is 3910 Credits");
        ItemAliasPrice itemobject=new ItemAliasPrice();
        assertEquals(17,itemobject.itemAliasPrice.get("Silver"));
        assertEquals(14450,itemobject.itemAliasPrice.get("Gold"));
@@ -106,14 +107,14 @@ public class InputParseTest {
    @Test
     void isSentenceContainedHowMuchQuestionSolved(){
 
-       GalaxyLanguage galaxyLanguage = new GalaxyLanguage();
-       galaxyLanguage.storeLanguageInfo("glob is I");
-       galaxyLanguage.storeLanguageInfo("prok is V");
-       galaxyLanguage.storeLanguageInfo("pish is X");
-       galaxyLanguage.storeLanguageInfo("tegj is L");
-       galaxyLanguage.storeLanguageInfo("glob glob Silver is 34 Credits");
-       galaxyLanguage.storeLanguageInfo("glob prok Gold is 57800 Credits");
-       galaxyLanguage.storeLanguageInfo("pish pish Iron is 3910 Credits");
+       LanguageFactoryClass languageFactoryClass = new LanguageFactoryClass();
+       languageFactoryClass.storeLanguageProcess("glob is I");
+       languageFactoryClass.storeLanguageProcess("prok is V");
+       languageFactoryClass.storeLanguageProcess("pish is X");
+       languageFactoryClass.storeLanguageProcess("tegj is L");
+       languageFactoryClass.storeLanguageProcess("glob glob Silver is 34 Credits");
+       languageFactoryClass.storeLanguageProcess("glob prok Gold is 57800 Credits");
+       languageFactoryClass.storeLanguageProcess("pish pish Iron is 3910 Credits");
        QuerySolver querySolver =new QuerySolver();
        assertEquals("I have no idea what you are talking about",
                querySolver.solveQuery("how much is glob tegj ?"));
@@ -128,14 +129,14 @@ public class InputParseTest {
 
    @Test
    void isSentenceContainedHowManyTypeQuestionSolved(){
-       GalaxyLanguage galaxyLanguage = new GalaxyLanguage();
-       galaxyLanguage.storeLanguageInfo("glob is I");
-       galaxyLanguage.storeLanguageInfo("prok is V");
-       galaxyLanguage.storeLanguageInfo("pish is X");
-       galaxyLanguage.storeLanguageInfo("tegj is L");
-       galaxyLanguage.storeLanguageInfo("glob tegj Silver is 34 Credits");
-       galaxyLanguage.storeLanguageInfo("glob prok Gold is 57800 Credits");
-       galaxyLanguage.storeLanguageInfo("pish pish Iron is 3910 Credits");
+       LanguageFactoryClass languageFactoryClass = new LanguageFactoryClass();
+       languageFactoryClass.storeLanguageProcess("glob is I");
+       languageFactoryClass.storeLanguageProcess("prok is V");
+       languageFactoryClass.storeLanguageProcess("pish is X");
+       languageFactoryClass.storeLanguageProcess("tegj is L");
+       languageFactoryClass.storeLanguageProcess("glob tegj Silver is 34 Credits");
+       languageFactoryClass.storeLanguageProcess("glob prok Gold is 57800 Credits");
+       languageFactoryClass.storeLanguageProcess("pish pish Iron is 3910 Credits");
        QuerySolver querySolver =new QuerySolver();
        assertEquals("I have no idea what you are talking about", querySolver.solveQuery("how many Credits is glob tegj Silver ?"));
        assertEquals("glob prok Gold is 57800 Credits", querySolver.solveQuery("how many Credits is glob prok Gold ?"));
